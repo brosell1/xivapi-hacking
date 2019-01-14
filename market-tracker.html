@@ -8,6 +8,7 @@
     </head>
     <body>
         <h1>market tracker</h1>
+        <h3 id="character-title"></h3>
         <div>
             <span>Server? </span>
             <select id='server'>
@@ -15,9 +16,15 @@
             </select>
         </div>
         <div>
+          <span>Character name?</span>
+          <input id="character" type="text" name="character" value="" />
+          <button onclick="setCharacter()">Set</button>
+        </div>
+        <div>
             <span>Item? </span>
-            <input id="item" type="text" name="item" value="">
+            <input id="item" type="text" name="item" value="" />
             <button type=submit onclick="getItems(event)">Search</button>
         </div>
+        rain hood = 24591
     </body>
 </html>
